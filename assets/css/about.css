@@ -1,0 +1,438 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Nunito', sans-serif !important */
+}
+
+
+
+
+html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+
+h1,h2,h3,h4{
+  font-family: 'Nunito', sans-serif !important;
+font-family: 'Roboto', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+.aboutg{
+    background-image: url('/assets/images/pagescreen.jpg');
+    width: 100vw;
+    height : 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.title-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: inherit;
+    height: inherit;
+    align-items: center;
+}
+
+.title-name{
+    font-size: 85px;
+    font-weight: bolder;
+    color: #212121;
+    font-family: 'Roboto', sans-serif;
+}
+
+.title-para{
+    font-size: 25px;
+    color: #606060;
+}
+
+.para2{
+  width: 38%;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: 'PT Sans', sans-serif;
+    display: table;
+    width: 100%;
+    /* background: #f54785; */
+  }
+  .container{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    height: 100vh;
+  }
+  button{
+    display: inline-block;
+    position: relative;
+    background: none;
+    border: none;
+    color: rgb(85, 81, 81);
+    font-size: 18px;
+    cursor: pointer;
+    margin: 20px 30px;
+    background: rgba(0,0,0,0.09);
+    font-size: unset;
+    font-weight: 900;
+  
+  }
+  span{
+    display: block;
+    padding: 25px 80px;
+  }
+  button::before, button::after{
+    content:"";
+    width: 0;
+    height: 2px;
+    position: absolute;
+    transition: all 0.2s linear;
+    background: rgb(63, 57, 57);
+  }
+  
+  span::before, span::after{
+    content:"";
+    width:2px;
+    height:0;
+    position: absolute;
+    transition: all 0.2s linear;
+    background: rgb(117, 109, 109);
+  }
+  button:hover::before, button:hover::after{
+    width: 100%;
+  }
+  button:hover span::before, button:hover span::after{
+    height: 100%;
+  } 
+  /*----- button 1 -----*/
+   .btn-1::before, .btn-1::after{
+    transition-delay: 0.2s;
+  }
+  .btn-1 span::before, .btn-1 span::after{
+    transition-delay: 0s;
+  }
+  .btn-1::before{
+    right: 0;
+    top: 0;
+  }
+  .btn-1::after{
+    left: 0;
+    bottom: 0;
+  }
+  .btn-1 span::before{
+    left: 0;
+    top: 0;
+  }
+  .btn-1 span::after{
+    right: 0;
+    bottom: 0;
+  }
+
+  .btn-1 :hover{
+    background-color: #fff;
+  }
+  .btn-1:hover::before, .btn-1:hover::after{
+    transition-delay: 0s;
+  }
+  .btn-1:hover span::before, .btn-1:hover span::after{
+    transition-delay: 0.2s;
+  } 
+
+
+
+  /* section1 */
+
+  .section1{
+      display: flex;
+     justify-content: space-around;
+     flex-wrap: wrap;
+  }
+
+  .para{
+     margin: 24px;
+     width: 48%;
+     min-width: 30px;
+  }
+
+  .side-img{
+      margin: 12px;
+      width: 45%;
+  }
+
+  .title2 h1{
+    font-weight: 900;
+  }
+
+  .title2 h4{
+    color: #80838f;
+  }
+  .parat{
+  
+     margin: 56px;
+     font-size: 18px;
+     line-height: 1.8;
+     margin-top: 0;
+     margin-bottom: 20px;
+     font-size: inherit;
+     border-color: #6b6b6b;
+     font-size: 18px;
+     font-weight: 400;
+     text-transform: none;
+     color : grey;
+     margin-left: 20px;;
+  }
+
+  .imgh{
+      width: 100%;
+      height: 100%;
+     
+    }
+
+ .btn-1 span a{
+    color: rgb(85, 81, 81);
+    text-decoration: none;
+ } 
+
+
+.section2{
+  display: flex !important;
+  /* justify-content: space-around !important; */
+  flex-wrap: wrap !important;
+}
+
+  .para2{
+    width: 40% !important;
+    
+    
+  }
+
+  .parat2{
+    margin: 56px;
+    font-size: 18px;
+    line-height: 1.8;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: inherit;
+    border-color: #6b6b6b;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: none;
+    color: grey;
+    margin-left: 20px;
+  }
+
+  .skills .progress .skill{
+     color : #444444 !important;
+     font-weight: 900 !important;
+     font-stretch: expanded !important;
+     font-family: 'Nunito', sans-serif !important;
+  }
+#skills{
+  /* display: inline-block; */
+  font-family: sans-serif;
+  width: 43% !important;
+  display: flex !important;
+flex-direction: column;
+/* align-items: center; */
+justify-content: center;
+}
+
+.df{
+  width: 33rem;
+}
+
+/* .col-lg-6{
+  width: 90% !important;
+} */
+
+.skills .progress{
+  margin-bottom: 24px !important;
+}
+
+
+.skills{
+  font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* section -- 3 */
+
+
+.section3{
+
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.sec3-left{
+  width: 41%;
+  margin: 12px;
+  margin-left: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.sec3-left img{
+  width: 80%;
+  height: 100%;
+}
+
+.sec3-right{
+  width: 49%;
+  margin: 16px;
+}
+
+.sec3-right h5{
+  font-weight: 600;
+}
+
+.hrc{
+  background-color: #34b7a7;
+  background-color : #163148;
+} 
+
+.sec3-para{
+  color: #6b6b6b;
+  font-size: 16px;
+  font-weight: lighter;
+  text-align: left;
+   border-color: #6b6b6b;
+   border-color: #898989;
+  /* font-family: 'Nunito', sans-serif; */
+}
+
+.sec3-right h5{
+  font-family: 'Nunito', sans-serif;
+font-family: 'Raleway', sans-serif !important;
+font-family: 'Roboto', sans-serif;
+}
+
+.hrc{
+  width: 94%;
+}
+
+.section-title h2{
+  font-size: 2.5rem;
+  margin-top: -4rem;
+  margin-bottom: 3rem;
+  /* font-family: 'Nunito', sans-serif !important; */
+}
+
+/* end of section */
+
+.cd{
+   display: block;
+   text-align: justify;
+   height: auto;
+}
+
+/* #footer{
+  background-color: #34b7a7 !important;
+} */
+
+/* items to be decided */
+
+.back-to-top{
+  background: #163148 !important;
+}
+
+.navbar > ul > li > a:before {
+  background-color: #5c768d !important;
+}
+
+
+.skills .progress-bar{
+
+  background-color :#428bca !important;  
+}
+
+.header-social-links a:hover{
+   color : #428bca !important;
+}
+
+#footer{
+  margin-top: 60px;
+  padding: 0px !important;
+  /* margin-bottom: 90px; */
+}
+
+@media only screen and (max-width: 1050px){
+ 
+
+  .sec3-left{
+    margin-bottom: 41px !important;
+  }
+
+  .section-title h2{
+    margin-top: 16px;
+  }
+  .sec3-left{
+    width: 90%;
+  }
+
+  .sec3-right{
+    width: 90%;
+  }
+  .para{
+    width: 90%;
+    margin: 16px;
+  }
+
+    .side-img{
+      width: 80%;
+    }
+
+    .parat{
+      margin: 13px;
+    }
+ 
+     .title-name{
+       font-size: 55px;
+     }
+
+     .title-para{
+       font-size: 20px;
+     }
+
+     .title2 h1{
+        font-size: 41px;
+     }
+
+     #skills{
+       margin: auto;
+       width: 95% !important;
+       align-items: center;
+     }
+
+     .row{
+       width: 100%;
+       display: flex;
+       justify-content: center;
+       margin-bottom: 35px;
+     }
+
+     .progress{
+       width: 90%;
+     }
+
+     .title2 h1 {
+      font-size: 30px;
+  }
+
+    .sec3-left{
+      width: 100% !important;
+      margin: 0;
+    }
+  
+ }
