@@ -1,5 +1,4 @@
 
-/* @hritikkhurana :::: COPYRIGHT */
 body {
     font-family: "Open Sans", sans-serif;
     color: #444444;
@@ -27,8 +26,6 @@ body {
       margin-top: 30px;
     }
   }
-
-  /* @hritikkhurana :::: COPYRIGHT */
   
   /*--------------------------------------------------------------
   # Preloader
@@ -42,6 +39,7 @@ body {
     z-index: 9999;
     overflow: hidden;
     background: #fff;
+    height: 100vh;
   }
   
   #preloader:before {
@@ -75,8 +73,6 @@ body {
       transform: rotate(360deg);
     }
   }
-
-  /* @hritikkhurana :::: COPYRIGHT */
   /*--------------------------------------------------------------
   # Back to top button
   --------------------------------------------------------------*/
@@ -154,7 +150,7 @@ body {
   .header-social-links a:hover {
     color: #34b7a7;
   }
-  /* @hritikkhurana :::: COPYRIGHT */
+  
   /*--------------------------------------------------------------
   # Navigation Menu
   --------------------------------------------------------------*/
@@ -392,7 +388,7 @@ body {
   transition: 0.9s;
   background-color: #34b7a7;
 }
-/* @hritikkhurana :::: COPYRIGHT */
+
 
 /*--------------------------------------------------------------
 # Contact
@@ -518,7 +514,7 @@ body {
 }
 
 
-/* @hritikkhurana :::: COPYRIGHT */
+
 
 
 #footer {
@@ -550,8 +546,6 @@ body {
   font-family: "Raleway", sans-serif;
   color: #fff;
 }
-
-/* @hritikkhurana :::: COPYRIGHT */
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
@@ -652,7 +646,8 @@ body {
   color: #9eccf4;
 }
 
-/* @hritikkhurana :::: COPYRIGHT */
+
+/*  */
 
 body {
   background: url('./about.html')  center center / cover no-repeat fixed;
@@ -676,7 +671,7 @@ top: 0;
   width: 100%;
 z-index: 900;
 }
-/* @hritikkhurana :::: COPYRIGHT */
+
 .ctn-preloader .animation-preloader {
   position: absolute;
 z-index: 100;
@@ -720,7 +715,6 @@ transform: rotateY(-90deg);
 animation-delay: 0.2s;
 }
 
-/* @hritikkhurana :::: COPYRIGHT */
 .ctn-preloader .animation-preloader .txt-loading .letters-loading:nth-child(3):before {
 animation-delay: 0.4s;
 }
@@ -796,9 +790,7 @@ opacity: 1;
 transform: rotateY(0deg);
 }
 }
-/*
-@hritikkhurana10sm   ::: COPYRIGHT  
- */
+
 /* Tamaño de portatil hacia atras (portatil, tablet, celular) */
 @media screen and (max-width: 767px) {
   /* Preloader */
@@ -813,9 +805,7 @@ transform: rotateY(0deg);
     font: bold 3.5em 'Montserrat', sans-serif;
   }
 }
-/*
-@hritikkhurana10sm   ::: COPYRIGHT  
- */
+
 @media screen and (max-width: 500px) {
   /* Prelaoder */
   /* Spinner cargando */
@@ -823,9 +813,6 @@ transform: rotateY(0deg);
         height: 7em;
         width: 7em;
   }
-  /*
-@hritikkhurana10sm   ::: COPYRIGHT  
- */
 
   /* Texto cargando */
   .ctn-preloader .animation-preloader .txt-loading {

@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     /* font-family: 'Nunito', sans-serif !important */
+    font-family: 'Alata', sans-serif;
 }
 
 
@@ -19,7 +20,7 @@ font-family: 'Roboto', sans-serif;
 }
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
 .aboutg{
-    background-image: url('/assets/images/pagescreen.jpg');
+    background-image: url('/nirmala/about1.jpg');
     width: 100vw;
     height : 100vh;
     background-position: center;
@@ -42,6 +43,7 @@ font-family: 'Roboto', sans-serif;
     font-weight: bolder;
     color: #212121;
     font-family: 'Roboto', sans-serif;
+    font-family: 'El Messiri', sans-serif !important;
 }
 
 .title-para{
@@ -155,11 +157,12 @@ font-family: 'Roboto', sans-serif;
       display: flex;
      justify-content: space-around;
      flex-wrap: wrap;
+     margin: 3px;
   }
 
   .para{
-     margin: 24px;
-     width: 48%;
+     margin: 30px !important;
+     width: 90%;
      min-width: 30px;
   }
 
@@ -170,6 +173,7 @@ font-family: 'Roboto', sans-serif;
 
   .title2 h1{
     font-weight: 900;
+    font-family: 'El Messiri', sans-serif !important;
   }
 
   .title2 h4{
@@ -177,7 +181,7 @@ font-family: 'Roboto', sans-serif;
   }
   .parat{
   
-     margin: 56px;
+     margin: 30px;
      font-size: 18px;
      line-height: 1.8;
      margin-top: 0;
@@ -188,7 +192,13 @@ font-family: 'Roboto', sans-serif;
      font-weight: 400;
      text-transform: none;
      color : grey;
-     margin-left: 20px;;
+     /* margin-left: 20px;; */
+  }
+
+  .paran{
+    margin: 30px !important;
+    width: 45%;
+    min-width: 30px;
   }
 
   .imgh{
@@ -205,7 +215,7 @@ font-family: 'Roboto', sans-serif;
 
 .section2{
   display: flex !important;
-  /* justify-content: space-around !important; */
+  justify-content: space-around !important;
   flex-wrap: wrap !important;
 }
 
@@ -368,7 +378,9 @@ font-family: 'Roboto', sans-serif;
 }
 
 @media only screen and (max-width: 1050px){
- 
+  .paran{
+    width: 90%;
+  }
 
   .sec3-left{
     margin-bottom: 41px !important;
@@ -386,7 +398,7 @@ font-family: 'Roboto', sans-serif;
   }
   .para{
     width: 90%;
-    margin: 16px;
+    margin: 23px!important;
   }
 
     .side-img{
@@ -435,4 +447,11 @@ font-family: 'Roboto', sans-serif;
       margin: 0;
     }
   
+    .sec3-right{
+      margin: 23px !important;
+    }
+
+    .paran{
+      margin: 23px !important;
+    }
  }

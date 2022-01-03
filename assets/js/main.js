@@ -1,6 +1,3 @@
-/*
-@hritikkhurana10sm   ::: COPYRIGHT  
- */
 
 (function() {
     "use strict";
@@ -180,7 +177,3 @@ window.addEventListener('scroll', () => {
    });
  
  })()   
-
- /*
-@hritikkhurana10sm   ::: COPYRIGHT  
- */
